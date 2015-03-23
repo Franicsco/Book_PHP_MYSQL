@@ -4,7 +4,7 @@
 
 //Tipo STRING
 $minhaVar = "Texto";
-echo($minhaVar . '<br />'); // resultado: TEXTO
+echo($minhaVar . "<br />"); // resultado: TEXTO
 
 //Tipo BOOLEAN
 $minhaVar = true;
