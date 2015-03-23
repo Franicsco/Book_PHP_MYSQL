@@ -4,7 +4,7 @@
 
 //Tipo STRING
 $minhaVar = "Texto";
-echo($minhaVar . '<br />'); // resultado: TEXTO
+echo($minhaVar . "<br />"); // resultado: TEXTO
 
 //Tipo BOOLEAN
 $minhaVar = true;
@@ -13,8 +13,11 @@ echo($minhaVar . '<br />'); // resultado: 1
 $minhaVar = false;
 echo($minhaVar . '<br />'); // resultado:  <Vazio>
 
-
-//Tipo FLOAT
+//Tipo DOBLE
 $minhaVar = 5.22;
+echo($minhaVar . '<br />'); // resultado: 5.22
+
+//Tipo INTEGER
+$minhaVar = 5;
 echo($minhaVar . '<br />'); // resultado: 5.22
 ?>
