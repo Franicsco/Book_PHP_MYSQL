@@ -14,7 +14,7 @@ $minhaVar = false;
 echo($minhaVar . '<br />'); // resultado:  <Vazio>
 
 //Tipo DOBLE
-$minhaVar = 5.22;
+$minhaVar = 5.33;
 echo($minhaVar . '<br />'); // resultado: 5.22
 
 //Tipo INTEGER
