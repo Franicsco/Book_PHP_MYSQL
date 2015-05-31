@@ -2,8 +2,8 @@
 //Escrevendo em um arquivo txt
 
 $file = fopen('dados.txt', 'w');
-fwrite($file, 'Escrevendo ');
-fwrite($file, ' no arquivo');
+fwrite($file, 'Escrevendo teste t222este///////');
+fwrite($file, ' no arquivo. Teste22 teste 22222 ');
 fclose($file);
 
 //Lendo o arquivo txt
