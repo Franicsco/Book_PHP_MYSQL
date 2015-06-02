@@ -11,7 +11,7 @@ fclose($file);
 $arquivo = file('dados2.txt');
 for($i = 0; $i < count($arquivo); $i++){
 
-    //Imprimi cada linha
+    
     echo $arquivo[$i]."<br />";
 }
 ?>

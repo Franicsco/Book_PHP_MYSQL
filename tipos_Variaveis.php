@@ -18,6 +18,10 @@ echo($minhaVar . '<br />'); // resultado:  <Vazio>
 $minhaVar = 5.35;
 echo($minhaVar . '<br />'); // resultado: 5.22
 
+//Tipo DOBLE
+$minhaVar = 5.35;
+echo($minhaVar . '<br />'); // resultado: 5.22
+
 //Tipo INTEGER
 $minhaVar = 5;
 echo($minhaVar . '<br />'); // resultado: 5.22
