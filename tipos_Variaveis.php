@@ -26,7 +26,4 @@ echo($minhaVar . '<br />'); // resultado: 5.22
 $minhaVar = 5;
 echo($minhaVar . '<br />'); // resultado: 5.22
 
-//Tipo INTEGER
-$minhaVar = 10;
-echo($minhaVar . '<br />'); // resultado: 5.22
 ?>
