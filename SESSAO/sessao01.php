@@ -7,7 +7,7 @@ if(@$_REQUEST["action"]== "sent"){
 		
 		session_start();
 		$_SESSION["usuario"] = $_POST["campoUsuario"];		
-		echo "<a href='sessao01_recebe.php'>Outra pagina</a>";
+		echo "<script>location.href = 'sessao01_recebe.php';</script>";
 			}
 			else{
 				echo "<script>alert('Digite o Nome'); location.href = 'sessao01.php';</script> ";				
