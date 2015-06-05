@@ -32,6 +32,12 @@ require 'usuario.php';
   <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/recebe.css">
+    
+      <!--Importando a Biblioteca JQuery-->
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+      
+    <!--Importando a Biblioteca JQuery-->
+    <script type="text/javascript" src="js/validacao.js"></script>
   <title>Fomulário</title>
   </head>
   
@@ -45,7 +51,7 @@ require 'usuario.php';
         <h3><strong>Seu e-mail: </strong><?php echo $obj->getEmail(); ?></h3>
         
         <form action="index.php">
-            <input type="submit" class="botao" value="Sair" /><br />
+            <input type="submit" class="botaoSair" value="Sair" /><br />
           </form> 
        </div>
        

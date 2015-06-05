@@ -22,9 +22,9 @@
         <h2>Preencha todos os campos</h2>
         <div class="form">
           <form action="recebe.php" method="post">
-            <input type="text" name="txtNome" values="" placeholder="Nome:"/><br />
-            <input type="number" name="txtIdade" values="" placeholder="Idade:"/><br />
-            <input type="email" name="txtEmail" values="" placeholder="Email:"/><br />
+            <input type="text" name="txtNome" id="nome" values="" placeholder="Nome:" autofocus/><br />
+            <input type="number" name="txtIdade" id="idade" values="" placeholder="Idade:"/><br />
+            <input type="email" name="txtEmail" id="email" values="" placeholder="Email:"/><br />
             <input type="submit" class="botao" value="Enviar" /><br />
           </form> 	
           </div>
