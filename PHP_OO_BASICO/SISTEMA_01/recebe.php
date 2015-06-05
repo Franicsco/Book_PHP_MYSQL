@@ -1,6 +1,13 @@
 <?php
 require 'usuario.php';
 
+//para validar o e-mail
+$conta = "^[a-zA-Z0-9\._-]+@";
+$domino = "[a-zA-Z0-9\._-]+.";
+$extensao = "([a-zA-Z]{2,4})$";
+
+$pattern = $conta.$domino.$extensao;
+
 // criando as variaveis e recebendo os dados do formulário
 @$nome = $_POST['txtNome'];
 @$idade = (int) $_POST['txtIdade'];
@@ -23,6 +30,10 @@ require 'usuario.php';
    }else{
             echo "<script>alert('O Campo NOME o preenchimento é obrigatório'); location.href = 'index.php';</script>";    
         }
+		
+		if(@!ereg($pattern, $email)){
+			echo "<script>alert('E-MAIL inválido'); location.href = 'index.php';</script>";
+			}
     
 ?>
 
