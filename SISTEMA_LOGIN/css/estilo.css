@@ -11,7 +11,7 @@ div#conteudo{
 	height: 400px;
 	background-color: #1f1f1f;
 	margin: 0 auto;
-	border: 1px solid #d2d2d2;
+	
 	border-radius: 20px;
 }
 
@@ -107,11 +107,25 @@ input{
 	width:250px;
 	height:35px;
 	border-radius:10px;
+	border: 1px solid #ffffff;
 	margin:20px 0 0 0;
 	text-align:center;
+	font-size: 16px;
 	}
 .btAcessar{
 	background-color:#ffba00;
-	color:#ffffff;
+	border: 1px solid #ffba00;
+	color:#ffffff;	
+	font-weight: bold
 	}
+.btAcessar:hover{background-color:#FF8C00;}
+
+
+.btCadastrar{
+	background-color:#ffba00;
+	border: 1px solid #ffba00;
+	color:#ffffff;	
+	font-weight: bold
+	}
+.btCadastrar:hover{background-color:#FF8C00;}
 /*ESCOLHA DO FORMULARIO*/
